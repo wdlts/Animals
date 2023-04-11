@@ -1,4 +1,4 @@
-package org.example.Attestation;
+package org.example.AnimalFarm;
 
 public abstract class Animal {
     protected String name;

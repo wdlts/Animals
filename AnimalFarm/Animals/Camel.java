@@ -1,6 +1,6 @@
-package org.example.Attestation.Animals;
+package org.example.AnimalFarm.Animals;
 
-import org.example.Attestation.PackAnimal;
+import org.example.AnimalFarm.PackAnimal;
 public class Camel extends PackAnimal {
     static int count;
     public Camel(String name, String command, String dateOfBirth) {

@@ -1,6 +1,6 @@
-package org.example.Attestation;
+package org.example.AnimalFarm;
 
-import org.example.Attestation.Animals.*;
+import org.example.AnimalFarm.Animals.*;
 
 import java.util.ArrayList;
 import java.util.Scanner;

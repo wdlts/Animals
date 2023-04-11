@@ -1,14 +1,14 @@
-package org.example.Attestation.Animals;
-import org.example.Attestation.PackAnimal;
-public class Donkey extends PackAnimal {
+package org.example.AnimalFarm.Animals;
+import org.example.AnimalFarm.Pet;
+public class Hamster extends Pet {
     static int count;
-    public Donkey(String name, String command, String dateOfBirth) {
+    public Hamster(String name, String command, String dateOfBirth) {
         super(name, command, dateOfBirth);
         count++;
     }
     @Override
     public void voice() {
-        System.out.println("Иа!");
+        System.out.println("Кукареку");
     }
     @Override
     public String getName() {
@@ -24,7 +24,7 @@ public class Donkey extends PackAnimal {
     }
     @Override
     public String toString() {
-        return  "Имя осла " + count + " = " + name +
+        return  "Имя хомяка " + count + " = " + name +
                 ", комманда = " + command +
                 ", дата рождения = " + DoB + "\n";
     }

@@ -1,5 +1,5 @@
-package org.example.Attestation.Animals;
-import org.example.Attestation.PackAnimal;
+package org.example.AnimalFarm.Animals;
+import org.example.AnimalFarm.PackAnimal;
 public class Horse extends PackAnimal {
     static int count;
     public Horse(String name, String command, String dateOfBirth) {
